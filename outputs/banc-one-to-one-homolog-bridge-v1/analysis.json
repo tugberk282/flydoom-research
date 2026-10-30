@@ -1,0 +1,198 @@
+{
+  "status": "complete_outcome_blind_homolog_bridge_audit",
+  "decision": "exact_bridge_failed_no_valid_lovp108_homolog",
+  "connectivity_outcomes_opened": false,
+  "training_or_fitting": 0,
+  "priority_rule": [
+    "unique valid human-reviewed FAFB/MaleCNS match",
+    "exact BANC primary type",
+    "unique curated MaleCNS/FAFB label",
+    "unique matched-body-ID type",
+    "otherwise unresolved"
+  ],
+  "resolved_rows": 19396,
+  "source_counts": {
+    "matched_body_id": 10339,
+    "unresolved": 168236,
+    "human_reviewed": 5950,
+    "banc_primary_type": 1725,
+    "curated_cross_dataset_label": 1382,
+    "matched_body_id_conflict": 724,
+    "curated_cross_dataset_label_conflict": 126,
+    "human_reviewed_conflict": 26
+  },
+  "covered_types": 427,
+  "expected_types": 437,
+  "missing_types": [
+    "CB0861",
+    "CB0871",
+    "ER3d_b",
+    "JO-A4",
+    "JO-CA2",
+    "JO-EV4",
+    "JO-FD1",
+    "LPT47_vCal2",
+    "LT82b",
+    "LoVP108"
+  ],
+  "role_coverage": {
+    "descending": {
+      "expected": 6,
+      "covered": 6,
+      "missing": []
+    },
+    "internal": {
+      "expected": 125,
+      "covered": 122,
+      "missing": [
+        "CB0861",
+        "CB0871",
+        "ER3d_b"
+      ]
+    },
+    "sensory": {
+      "expected": 306,
+      "covered": 299,
+      "missing": [
+        "JO-A4",
+        "JO-CA2",
+        "JO-EV4",
+        "JO-FD1",
+        "LPT47_vCal2",
+        "LT82b",
+        "LoVP108"
+      ]
+    }
+  },
+  "lovp108_nblast": {
+    "candidate_rows": 32,
+    "query_neurons": 23,
+    "validated_rows": 0,
+    "rank1_rows": 0,
+    "best_rank": 7,
+    "best_score": -0.01,
+    "best_margin_to_query_winner": -0.15000000000000002,
+    "top_candidates": [
+      {
+        "query_root_id": "720575941561379310",
+        "banc_root_id": "720575941523239347",
+        "match_id": "57463",
+        "score": -0.01,
+        "rank": 17,
+        "best_type": "LT35",
+        "best_score": 0.44,
+        "margin_to_best": -0.45,
+        "validation": false
+      },
+      {
+        "query_root_id": "720575941591234359",
+        "banc_root_id": "720575941587769734",
+        "match_id": "512476",
+        "score": -0.12,
+        "rank": 16,
+        "best_type": "LoVC18",
+        "best_score": 0.34,
+        "margin_to_best": -0.46,
+        "validation": false
+      },
+      {
+        "query_root_id": "720575941433420641",
+        "banc_root_id": "720575941556320154",
+        "match_id": "57463",
+        "score": -0.13,
+        "rank": 16,
+        "best_type": "MeVC25",
+        "best_score": 0.47,
+        "margin_to_best": -0.6,
+        "validation": false
+      },
+      {
+        "query_root_id": "720575941562850605",
+        "banc_root_id": "720575941537906186",
+        "match_id": "57463",
+        "score": -0.14,
+        "rank": 42,
+        "best_type": "LoVC22",
+        "best_score": 0.4,
+        "margin_to_best": -0.54,
+        "validation": false
+      },
+      {
+        "query_root_id": "720575941433420641",
+        "banc_root_id": "720575941556320154",
+        "match_id": "15761",
+        "score": -0.15,
+        "rank": 20,
+        "best_type": "MeVC25",
+        "best_score": 0.47,
+        "margin_to_best": -0.62,
+        "validation": false
+      },
+      {
+        "query_root_id": "720575941462655187",
+        "banc_root_id": "720575941462655187",
+        "match_id": "57463",
+        "score": -0.16,
+        "rank": 32,
+        "best_type": "LoVC15",
+        "best_score": 0.55,
+        "margin_to_best": -0.7100000000000001,
+        "validation": false
+      },
+      {
+        "query_root_id": "720575941561379310",
+        "banc_root_id": "720575941523239347",
+        "match_id": "15761",
+        "score": -0.18,
+        "rank": 41,
+        "best_type": "LT35",
+        "best_score": 0.44,
+        "margin_to_best": -0.62,
+        "validation": false
+      },
+      {
+        "query_root_id": "720575941515102417",
+        "banc_root_id": "720575941563542573",
+        "match_id": "57463",
+        "score": -0.2,
+        "rank": 21,
+        "best_type": "LoVCLo1",
+        "best_score": 0.47,
+        "margin_to_best": -0.6699999999999999,
+        "validation": false
+      },
+      {
+        "query_root_id": "720575941484827322",
+        "banc_root_id": "720575941655525393",
+        "match_id": "512476",
+        "score": -0.23,
+        "rank": 57,
+        "best_type": "LoVC18",
+        "best_score": 0.41,
+        "margin_to_best": -0.64,
+        "validation": false
+      },
+      {
+        "query_root_id": "720575941462655187",
+        "banc_root_id": "720575941462655187",
+        "match_id": "15761",
+        "score": -0.25,
+        "rank": 48,
+        "best_type": "LoVC15",
+        "best_score": 0.55,
+        "margin_to_best": -0.8,
+        "validation": false
+      }
+    ]
+  },
+  "bridge_sha256": "028d8c2b22134c7351d967cd25565923dba3d5ef72c409beac25bfe7baa4b9f9",
+  "sources": {
+    "data\\external\\codex-banc-888\\banc_888_meta.feather": "86ccf5df0c67419f8c5f43e93a7ed38d23a080e9f7fde26737290252f3780098",
+    "outputs\\cross-connectome-matched-type-v2\\nodes.json": "38fce050f854d5b1308a8d193216f771afadc3cc669de761797fe7be00741003",
+    "data\\external\\2025malecns-67767d2\\mcns_fw_edge_comp_mappings.json": "94aaadbefedcc314c69fb8ad62a07361c1f78ee39424bad38ac1a6d7ca4d0a12",
+    "data\\external\\codex-banc-888\\banc_fafb_reviewed_matches.csv": "ecdbb43cd5d4586e92f0d92a6f1d2beeecd2f429dd5b3e5309c0edc2daa515c4",
+    "data\\external\\codex-banc-888\\banc_malecns_reviewed_matches.csv": "ca6a033644ce8de01cdc2ff528ff54095bfd5514c7948946c42ffcf45e694d6f",
+    "data\\external\\codex-banc-888\\banc_malecns_v0.9_nblast.feather": "3df79f4f3cd7934b3e96989d353d7858e00d1ef2c8db0b641181a5a2c2b788d9"
+  },
+  "interpretation": "The deterministic provenance hierarchy resolves a usable 436-type candidate bridge, but no reviewed, validated, rank-1 or close NBLAST LoVP108 homolog exists. Exact confirmation remains closed."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "checks": {
+    "ten_frozen_artifacts": true,
+    "all_files_exist_and_match": true,
+    "all_claim_classes_present": true,
+    "negative_results_present": true,
+    "no_training_or_fitting": true
+  },
+  "manifest_sha256": "8ce7e369a1bdedae8a0d70b00d8483e7d16a41a9c51e29a77f5d5f975dc3700c"
+}

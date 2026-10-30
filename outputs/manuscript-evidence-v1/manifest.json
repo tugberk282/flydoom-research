@@ -1,0 +1,117 @@
+{
+  "status": "complete_frozen_manuscript_evidence",
+  "title": "Connectome-derived finite-horizon sensory gain is dataset-specific after cross-connectome structural normalization",
+  "scope": "Reproducible manuscript evidence package; no new training, fitting or outcome analysis.",
+  "records": [
+    {
+      "id": "development_gate",
+      "path": "outputs/neuron-level-matched-null-development-v1/analysis.json",
+      "pointer": "/decision",
+      "expected": "development_gate_failed_stop_without_confirmation",
+      "claim_class": "negative",
+      "observed": "development_gate_failed_stop_without_confirmation",
+      "matched": true,
+      "sha256": "9ca95472b2125eae4eb2e49b00283290c2c4a42fa39c8dc7981da8fcd829b044"
+    },
+    {
+      "id": "frozen_mechanism",
+      "path": "outputs/neuron-level-bm-mechanism-bundle-v1/summary.json",
+      "pointer": "/status",
+      "expected": "complete_frozen_mechanism_synthesis",
+      "claim_class": "development_finding",
+      "observed": "complete_frozen_mechanism_synthesis",
+      "matched": true,
+      "sha256": "3615c1d404e3f15be5ff131b3756020d1a5395df01e8ee5454d9a660723d69be"
+    },
+    {
+      "id": "class_allocation",
+      "path": "outputs/neuron-level-bm-class-allocation-v1/analysis.json",
+      "pointer": "/decision",
+      "expected": "allocation_dominant",
+      "claim_class": "development_finding",
+      "observed": "allocation_dominant",
+      "matched": true,
+      "sha256": "c3df39d4169f65ab4fd523313d037ec69008bc36987ec43bd0433dfcad078fd9"
+    },
+    {
+      "id": "banc_exact_bridge",
+      "path": "outputs/banc-one-to-one-homolog-bridge-v1/analysis.json",
+      "pointer": "/decision",
+      "expected": "exact_bridge_failed_no_valid_lovp108_homolog",
+      "claim_class": "negative",
+      "observed": "exact_bridge_failed_no_valid_lovp108_homolog",
+      "matched": true,
+      "sha256": "83643c11c4cdec0ba12bdf0afe39b1af88d5c5b8265a69e1fba2c470e149034f"
+    },
+    {
+      "id": "banc_local_assay",
+      "path": "outputs/banc-bm-local-mechanism-v2/analysis.json",
+      "pointer": "/decision",
+      "expected": "local_signature_not_replicated",
+      "claim_class": "negative",
+      "observed": "local_signature_not_replicated",
+      "matched": true,
+      "sha256": "890e3da6559ca3d13fb8c1606fd81e178156e3c0786fdf592efe819c6aa2870a"
+    },
+    {
+      "id": "harmonized_structure",
+      "path": "outputs/bm-cross-dataset-structural-audit-v1/analysis.json",
+      "pointer": "/decision",
+      "expected": "male_structural_excess_persists_harmonized_thresholds",
+      "claim_class": "descriptive_finding",
+      "observed": "male_structural_excess_persists_harmonized_thresholds",
+      "matched": true,
+      "sha256": "62cd8133afb0a70996e5ca1f32fc0471cda344dfc6c8a695ab693bb2640da43e"
+    },
+    {
+      "id": "metadata_comparability",
+      "path": "outputs/bm-official-metadata-availability-v1/analysis.json",
+      "pointer": "/decision",
+      "expected": "metadata_partially_recoverable_not_comparable",
+      "claim_class": "negative",
+      "observed": "metadata_partially_recoverable_not_comparable",
+      "matched": true,
+      "sha256": "59d8429758cd2f627023c5d1678e1530fd1a3d6cf1520b017fa9b3d602daa60a"
+    },
+    {
+      "id": "side_count_sensitivity",
+      "path": "outputs/bm-side-count-matched-sensitivity-v1/analysis.json",
+      "pointer": "/decision",
+      "expected": "side_count_insufficient_explanation",
+      "claim_class": "sensitivity_finding",
+      "observed": "side_count_insufficient_explanation",
+      "matched": true,
+      "sha256": "76e75f63bd2b727fd6d839935b6f1a9b5f4556b524ae21b5dd6c92f35629f8d3"
+    },
+    {
+      "id": "within_dataset_enrichment",
+      "path": "outputs/bm-within-dataset-sensory-enrichment-v1/analysis.json",
+      "pointer": "/decision",
+      "expected": "global_scale_or_inconclusive",
+      "claim_class": "negative",
+      "observed": "global_scale_or_inconclusive",
+      "matched": true,
+      "sha256": "dc40973b0e5899078d229cb2231596e6470be99cc9dea26844af67b47e90bbfb"
+    },
+    {
+      "id": "shared_family_residual",
+      "path": "outputs/bm-shared-sensory-scale-residual-v1/analysis.json",
+      "pointer": "/decision",
+      "expected": "mixed_residual",
+      "claim_class": "mixed_finding",
+      "observed": "mixed_residual",
+      "matched": true,
+      "sha256": "5e6c3b786678bb58367328e6b7dd712681c0d7b9255f969061b60f3ba082b1c7"
+    }
+  ],
+  "claim_class_counts": {
+    "descriptive_finding": 1,
+    "development_finding": 2,
+    "mixed_finding": 1,
+    "negative": 5,
+    "sensitivity_finding": 1
+  },
+  "all_expected_decisions_match": true,
+  "training_or_fitting": 0,
+  "config_sha256": "45f3cc2edaf0e703ec4e3a04dac728e8f242b892337da6fe47c59f53984f0846"
+}

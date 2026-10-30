@@ -1,0 +1,26 @@
+{
+  "version": "manuscript-figures-v1",
+  "output_dir": "outputs/manuscript-figures-v1",
+  "formats": ["png", "svg", "pdf"],
+  "dpi": 300,
+  "sources": {
+    "cross_dataset": "outputs/bm-cross-dataset-structural-audit-v1/analysis.json",
+    "matched_draws": "outputs/bm-side-count-matched-sensitivity-v1/draw-metrics.csv",
+    "matched_analysis": "outputs/bm-side-count-matched-sensitivity-v1/analysis.json",
+    "within_dataset": "outputs/bm-within-dataset-sensory-enrichment-v1/analysis.json",
+    "scale_residual": "outputs/bm-shared-sensory-scale-residual-v1/analysis.json"
+  },
+  "figures": [
+    "figure-1-cross-dataset-structure",
+    "figure-2-side-count-matched-sensitivity",
+    "figure-3-within-dataset-enrichment",
+    "figure-4-shared-family-residual",
+    "figure-5-evidence-map"
+  ],
+  "interpretation_guardrails": [
+    "Cross-dataset differences are descriptive and conflate specimen, sex, reconstruction, annotation and source pipeline.",
+    "Matched subsets are correlated sensitivity draws, not independent biological replicates or inferential p-values.",
+    "Shared sensory families are not independent biological replicates.",
+    "The threshold-5 reciprocity residual is a candidate signal below the frozen robust-z >= 3 criterion, not a confirmed discovery."
+  ]
+}

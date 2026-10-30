@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "version": "manuscript-figures-v1",
+  "config": "configs/manuscript_figures_v1.json",
+  "config_sha256": "6002ffe11e17e40a073868e2035c9bf7d294e9fbd364e4fdb0096fa7bb31ec05",
+  "source_hashes": {
+    "outputs/bm-cross-dataset-structural-audit-v1/analysis.json": "62cd8133afb0a70996e5ca1f32fc0471cda344dfc6c8a695ab693bb2640da43e",
+    "outputs/bm-side-count-matched-sensitivity-v1/draw-metrics.csv": "d49acde4c0bec1639a2560a066ed277e3039df6875db179958bd3808373dc161",
+    "outputs/bm-side-count-matched-sensitivity-v1/analysis.json": "76e75f63bd2b727fd6d839935b6f1a9b5f4556b524ae21b5dd6c92f35629f8d3",
+    "outputs/bm-within-dataset-sensory-enrichment-v1/analysis.json": "dc40973b0e5899078d229cb2231596e6470be99cc9dea26844af67b47e90bbfb",
+    "outputs/bm-shared-sensory-scale-residual-v1/analysis.json": "5e6c3b786678bb58367328e6b7dd712681c0d7b9255f969061b60f3ba082b1c7"
+  },
+  "generated_files": [
+    "outputs/manuscript-figures-v1/figure-1-cross-dataset-structure.png",
+    "outputs/manuscript-figures-v1/figure-1-cross-dataset-structure.svg",
+    "outputs/manuscript-figures-v1/figure-1-cross-dataset-structure.pdf",
+    "outputs/manuscript-figures-v1/figure-2-side-count-matched-sensitivity.png",
+    "outputs/manuscript-figures-v1/figure-2-side-count-matched-sensitivity.svg",
+    "outputs/manuscript-figures-v1/figure-2-side-count-matched-sensitivity.pdf",
+    "outputs/manuscript-figures-v1/figure-3-within-dataset-enrichment.png",
+    "outputs/manuscript-figures-v1/figure-3-within-dataset-enrichment.svg",
+    "outputs/manuscript-figures-v1/figure-3-within-dataset-enrichment.pdf",
+    "outputs/manuscript-figures-v1/figure-4-shared-family-residual.png",
+    "outputs/manuscript-figures-v1/figure-4-shared-family-residual.svg",
+    "outputs/manuscript-figures-v1/figure-4-shared-family-residual.pdf",
+    "outputs/manuscript-figures-v1/figure-5-evidence-map.png",
+    "outputs/manuscript-figures-v1/figure-5-evidence-map.svg",
+    "outputs/manuscript-figures-v1/figure-5-evidence-map.pdf"
+  ],
+  "generated_hashes": {
+    "outputs/manuscript-figures-v1/figure-1-cross-dataset-structure.png": "839520565f6a5eceed4278f46dc8dcb40a4dcd7f9eb49b017aef53bb89e9376a",
+    "outputs/manuscript-figures-v1/figure-1-cross-dataset-structure.svg": "1980af12e94977bd19024a68ddc7f7a09c8703c22015baaedbfd3f4a32739fc5",
+    "outputs/manuscript-figures-v1/figure-1-cross-dataset-structure.pdf": "ac84e1832bcbadb3761142015aee1a6f3861cf90fb801de740d51fd90ecbbf0f",
+    "outputs/manuscript-figures-v1/figure-2-side-count-matched-sensitivity.png": "d2da13cb064e3622075736aa5758c599d55441ae0d1f76fa60ad5f25d50f90eb",
+    "outputs/manuscript-figures-v1/figure-2-side-count-matched-sensitivity.svg": "7b9fc4711b1b4e5c539fb9b1ba08cc4e4c74ed284e89ae197b775e090fada6c5",
+    "outputs/manuscript-figures-v1/figure-2-side-count-matched-sensitivity.pdf": "7aa3ef7b83e849eebdbb243787d09d5440a92257d962806cce1213cc2545ddf5",
+    "outputs/manuscript-figures-v1/figure-3-within-dataset-enrichment.png": "e0a60bd5420be724361d2ba3c3b4c40b671b3a9cd87e3591c8b022b536900d3c",
+    "outputs/manuscript-figures-v1/figure-3-within-dataset-enrichment.svg": "2a89bd1fed95daf5bcd701d0f53d0eb397a1a5c8d063f2d1cc23e32292e917d5",
+    "outputs/manuscript-figures-v1/figure-3-within-dataset-enrichment.pdf": "5e7bf74b564efffb6ca3a6fc64d040cfab431473abfe510d9b2449935c0217fe",
+    "outputs/manuscript-figures-v1/figure-4-shared-family-residual.png": "acccbab636969260d032e3d6c81f3715328c1e18df657d0e41e74e178d83f70d",
+    "outputs/manuscript-figures-v1/figure-4-shared-family-residual.svg": "7a63c7185ff493bd22a8e30af910a5accdd42f2b10764d05059203c92af10bf8",
+    "outputs/manuscript-figures-v1/figure-4-shared-family-residual.pdf": "eb517ac6232c18618fcfa74d365cab27d01b3d6f12724b19e091a9fdff0ec860",
+    "outputs/manuscript-figures-v1/figure-5-evidence-map.png": "0a8b5e7dd854a2815797bfae942e6d3ca7ef81bc9eb36c348e98bfcddb6d4204",
+    "outputs/manuscript-figures-v1/figure-5-evidence-map.svg": "d1473e9ada036fe7d7fa3463f444b45fdab7b8d12443e5388254354b2e518833",
+    "outputs/manuscript-figures-v1/figure-5-evidence-map.pdf": "983185e2e6cd4219c0113e960fb7154141878542ba7482f972f96a694112ddce"
+  },
+  "guardrails": [
+    "Cross-dataset differences are descriptive and conflate specimen, sex, reconstruction, annotation and source pipeline.",
+    "Matched subsets are correlated sensitivity draws, not independent biological replicates or inferential p-values.",
+    "Shared sensory families are not independent biological replicates.",
+    "The threshold-5 reciprocity residual is a candidate signal below the frozen robust-z >= 3 criterion, not a confirmed discovery."
+  ]
+}

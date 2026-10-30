@@ -1,0 +1,180 @@
+{
+  "status": "complete_side_count_matched_sensitivity",
+  "decision": "side_count_insufficient_explanation",
+  "draws": 1000,
+  "unique_subsets": 1000,
+  "male_target": {
+    "nodes": 69,
+    "left": 39,
+    "right": 30
+  },
+  "female_source_counts": {
+    "left": 39,
+    "right": 42
+  },
+  "male_metrics": {
+    "1": {
+      "nonself_pairs": 965,
+      "nonself_directed_density": 0.2056692242114237,
+      "nonself_reciprocal_directed_fraction": 0.7025906735751295,
+      "median_nonself_degree": 28.0,
+      "largest_weak_component_fraction": 1.0
+    },
+    "3": {
+      "nonself_pairs": 398,
+      "nonself_directed_density": 0.08482523444160273,
+      "nonself_reciprocal_directed_fraction": 0.6884422110552764,
+      "median_nonself_degree": 10.0,
+      "largest_weak_component_fraction": 0.9565217391304348
+    },
+    "5": {
+      "nonself_pairs": 237,
+      "nonself_directed_density": 0.05051150895140665,
+      "nonself_reciprocal_directed_fraction": 0.7679324894514767,
+      "median_nonself_degree": 8.0,
+      "largest_weak_component_fraction": 0.6086956521739131
+    }
+  },
+  "summaries": {
+    "1": {
+      "nonself_directed_density": {
+        "male": 0.2056692242114237,
+        "female_draw_mean": 0.1620072463768116,
+        "female_draw_median": 0.16197783461210571,
+        "female_draw_q01": 0.15025575447570333,
+        "female_draw_q99": 0.1739151747655584,
+        "female_draw_min": 0.14727195225916453,
+        "female_draw_max": 0.18030690537084398,
+        "fraction_draws_ge_male": 0.0
+      },
+      "nonself_reciprocal_directed_fraction": {
+        "male": 0.7025906735751295,
+        "female_draw_mean": 0.4389565265675372,
+        "female_draw_median": 0.43833818717865747,
+        "female_draw_q01": 0.4037842665750601,
+        "female_draw_q99": 0.4729764853773062,
+        "female_draw_min": 0.39652677279305354,
+        "female_draw_max": 0.4837451235370611,
+        "fraction_draws_ge_male": 0.0
+      },
+      "median_nonself_degree": {
+        "male": 28.0,
+        "female_draw_mean": 22.158,
+        "female_draw_median": 22.0,
+        "female_draw_q01": 20.0,
+        "female_draw_q99": 24.0,
+        "female_draw_min": 19.0,
+        "female_draw_max": 25.0,
+        "fraction_draws_ge_male": 0.0
+      },
+      "largest_weak_component_fraction": {
+        "male": 1.0,
+        "female_draw_mean": 0.9893333333333336,
+        "female_draw_median": 0.9855072463768116,
+        "female_draw_q01": 0.9855072463768116,
+        "female_draw_q99": 1.0,
+        "female_draw_min": 0.9855072463768116,
+        "female_draw_max": 1.0,
+        "fraction_draws_ge_male": 0.264
+      }
+    },
+    "3": {
+      "nonself_directed_density": {
+        "male": 0.08482523444160273,
+        "female_draw_mean": 0.02031308610400682,
+        "female_draw_median": 0.020247229326513214,
+        "female_draw_q01": 0.016835038363171354,
+        "female_draw_q99": 0.024083546462063087,
+        "female_draw_min": 0.015345268542199489,
+        "female_draw_max": 0.025788576300085252,
+        "fraction_draws_ge_male": 0.0
+      },
+      "nonself_reciprocal_directed_fraction": {
+        "male": 0.6884422110552764,
+        "female_draw_mean": 0.29378947047034276,
+        "female_draw_median": 0.29411764705882354,
+        "female_draw_q01": 0.239120082815735,
+        "female_draw_q99": 0.34782608695652173,
+        "female_draw_min": 0.20930232558139536,
+        "female_draw_max": 0.3595505617977528,
+        "fraction_draws_ge_male": 0.0
+      },
+      "median_nonself_degree": {
+        "male": 10.0,
+        "female_draw_mean": 2.035,
+        "female_draw_median": 2.0,
+        "female_draw_q01": 2.0,
+        "female_draw_q99": 3.0,
+        "female_draw_min": 1.0,
+        "female_draw_max": 3.0,
+        "fraction_draws_ge_male": 0.0
+      },
+      "largest_weak_component_fraction": {
+        "male": 0.9565217391304348,
+        "female_draw_mean": 0.6937246376811594,
+        "female_draw_median": 0.7681159420289855,
+        "female_draw_q01": 0.36231884057971014,
+        "female_draw_q99": 0.8260869565217391,
+        "female_draw_min": 0.34782608695652173,
+        "female_draw_max": 0.855072463768116,
+        "fraction_draws_ge_male": 0.0
+      }
+    },
+    "5": {
+      "nonself_directed_density": {
+        "male": 0.05051150895140665,
+        "female_draw_mean": 0.0029364876385336745,
+        "female_draw_median": 0.0029838022165387893,
+        "female_draw_q01": 0.0019181585677749361,
+        "female_draw_q99": 0.0038363171355498722,
+        "female_draw_min": 0.0017050298380221654,
+        "female_draw_max": 0.004262574595055414,
+        "fraction_draws_ge_male": 0.0
+      },
+      "nonself_reciprocal_directed_fraction": {
+        "male": 0.7679324894514767,
+        "female_draw_mean": 0.0,
+        "female_draw_median": 0.0,
+        "female_draw_q01": 0.0,
+        "female_draw_q99": 0.0,
+        "female_draw_min": 0.0,
+        "female_draw_max": 0.0,
+        "fraction_draws_ge_male": 0.0
+      },
+      "median_nonself_degree": {
+        "male": 8.0,
+        "female_draw_mean": 0.0,
+        "female_draw_median": 0.0,
+        "female_draw_q01": 0.0,
+        "female_draw_q99": 0.0,
+        "female_draw_min": 0.0,
+        "female_draw_max": 0.0,
+        "fraction_draws_ge_male": 0.0
+      },
+      "largest_weak_component_fraction": {
+        "male": 0.6086956521739131,
+        "female_draw_mean": 0.06833333333333334,
+        "female_draw_median": 0.07246376811594203,
+        "female_draw_q01": 0.043478260869565216,
+        "female_draw_q99": 0.08695652173913043,
+        "female_draw_min": 0.043478260869565216,
+        "female_draw_max": 0.08695652173913043,
+        "fraction_draws_ge_male": 0.0
+      }
+    }
+  },
+  "primary_flags": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "training_or_fitting": 0,
+  "interpretation_limit": "Correlated subset sensitivity, not independent graph replication or inferential p-value. It addresses only node count and side composition, not subtype, reconstruction, sex or population.",
+  "source_hashes": {
+    "configs\\bm_side_count_matched_sensitivity_v1.json": "4278d45f2735b3d08cb48aaf64518f4dcc7f833c57365b6c7035d2a329cffe97",
+    "data\\external\\flywire_annotations-8587524\\Supplemental_file1_neuron_annotations.tsv": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+    "outputs\\receptor-vs-neuron-interface-v1\\male-induced-edges.feather": "813a9c7f58455ee32321ad75eb13a228e3444c5705e3407e6f5d656e77f29001",
+    "outputs\\receptor-vs-neuron-interface-v1\\female-induced-edges.feather": "21651f7e4e5a894c002446a250545cef2550c15c0b9503a4be1b63840c1f6413"
+  }
+}

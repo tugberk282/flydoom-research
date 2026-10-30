@@ -1,0 +1,134 @@
+{
+  "status": "complete_frozen_mechanism_synthesis",
+  "frozen_chain": [
+    "BM partner topology",
+    "reciprocal/unidirectional class allocation",
+    "dominant sensory-axis gain"
+  ],
+  "scope": "post-outcome MaleCNS development mechanism; not biological/population/sex confirmation",
+  "evidence": {
+    "subspace_geometry": {
+      "finding": "BM cut effects are strongly low-dimensional in both Real and null systems.",
+      "limit": "Low dimensionality itself is not Real-specific."
+    },
+    "reciprocity_matched_null": {
+      "decision": "partner_placement_dominant",
+      "finding": "Exact reciprocal-degree preservation leaves most of the Male Real-null gap.",
+      "limit": "Reciprocity quantity is insufficient; partner placement remains implicated."
+    },
+    "fixed_support_weight_null": {
+      "decision": "mixed_or_metric_dependent",
+      "finding": "Real support retains a majority of Male gain while source-local weights add a substantial component.",
+      "limit": "Topology and weight are not independent biological replicates."
+    },
+    "topology_weight_factorial": {
+      "finding": "Weight effects are consistently positive on Real support and approximately absent on rewired support.",
+      "limit": "This is a within-graph counterfactual interaction."
+    },
+    "edge_class_weight": {
+      "decision": "distributed_or_interactive",
+      "finding": "Reciprocal and unidirectional weight sensitivity differs between Male and Female development panels.",
+      "limit": "No common edge-class mechanism or sex inference is supported."
+    },
+    "class_allocation": {
+      "decision": "allocation_dominant",
+      "male_summary": {
+        "normalized_signed_trace": {
+          "median_effect": 0.041113523040955835,
+          "positive_replicates": 16,
+          "fraction_prior_full_effect": 0.8401359232604467,
+          "prior_both_separate_effect": 0.022298941420350327,
+          "allocation_minus_both": 0.01881458162060551
+        },
+        "frobenius_norm": {
+          "median_effect": 0.00014066322967342738,
+          "positive_replicates": 16,
+          "fraction_prior_full_effect": 0.9826289166199603,
+          "prior_both_separate_effect": 6.90717168829396e-05,
+          "allocation_minus_both": 7.159151279048778e-05
+        },
+        "max_abs_eigenvalue": {
+          "median_effect": 0.00013863379048879995,
+          "positive_replicates": 16,
+          "fraction_prior_full_effect": 0.9794580039414432,
+          "prior_both_separate_effect": 6.865831085192719e-05,
+          "allocation_minus_both": 6.997547963687276e-05
+        }
+      },
+      "female_sensitivity_summary": {
+        "normalized_signed_trace": {
+          "median_effect": 0.0051636946737811315,
+          "positive_replicates": 16,
+          "fraction_prior_full_effect": 0.5826844657743944,
+          "prior_both_separate_effect": 0.007089975407114965,
+          "allocation_minus_both": -0.0019262807333338336
+        },
+        "frobenius_norm": {
+          "median_effect": 1.2893416260497412e-05,
+          "positive_replicates": 16,
+          "fraction_prior_full_effect": 0.6357948062882386,
+          "prior_both_separate_effect": 1.63901702671666e-05,
+          "allocation_minus_both": -3.4967540066691894e-06
+        },
+        "max_abs_eigenvalue": {
+          "median_effect": 1.221832236607536e-05,
+          "positive_replicates": 16,
+          "fraction_prior_full_effect": 0.6329766527062778,
+          "prior_both_separate_effect": 1.5531450123191945e-05,
+          "allocation_minus_both": -3.313127757116586e-06
+        }
+      },
+      "finding": "Per-source reciprocal/unidirectional class allocation reproduces most of the Male full weight-shuffle effect.",
+      "limit": "Single-graph, finite-shuffle development localization."
+    }
+  },
+  "preserved_negative_results": [
+    "The original common two-system biological-specificity gate failed.",
+    "Fresh-cue generalization did not establish a common biological advantage.",
+    "No single outlet or individual edge explains the effect.",
+    "Low-dimensional BM geometry is shared by Real and null systems.",
+    "Reciprocity count and per-node reciprocal degree do not explain the Male effect.",
+    "A common Male/Female reciprocal-edge mechanism was not found."
+  ],
+  "unsupported_claims": [
+    "biological memory",
+    "MaleCNS population generality",
+    "sex difference",
+    "behavioral superiority",
+    "publication originality"
+  ],
+  "next_valid_test": "Outcome-blind replication of the frozen chain in an independent connectome specimen; a new version of the same specimen is technical robustness only.",
+  "training_or_fitting": 0,
+  "source_artifacts": {
+    "subspace_geometry": {
+      "path": "outputs/neuron-level-bm-subspace-geometry-v1/analysis.json",
+      "sha256": "7f36efc9b14e4987e67e153201fe87a2a3e0e4017480b6f3e003292b0776fc94",
+      "status": "complete_exploratory_geometry"
+    },
+    "reciprocity_matched_null": {
+      "path": "outputs/neuron-level-bm-reciprocity-null-v1/analysis.json",
+      "sha256": "529a179eb5920b2204182d019984b7594df44bcfd987b887b0c626c15e4e86c0",
+      "status": "complete_development_mechanism_test"
+    },
+    "fixed_support_weight_null": {
+      "path": "outputs/neuron-level-bm-weight-null-v1/analysis.json",
+      "sha256": "bc174ad35710c324f591efed0fe4bb87c2bd0eaf7d45a3f615351fc4dd6029f9",
+      "status": "complete_development_mechanism_test"
+    },
+    "topology_weight_factorial": {
+      "path": "outputs/neuron-level-bm-topology-weight-factorial-v1/analysis.json",
+      "sha256": "6202da5e1c6910e9e0c039ada147f7e1d7a3d5cb3d59e7311e9077bdc671e489",
+      "status": "complete_paired_factorial"
+    },
+    "edge_class_weight": {
+      "path": "outputs/neuron-level-bm-edge-class-weight-v1/analysis.json",
+      "sha256": "33f53f060f20359a1c183ef500ea0ff027cd96800e7ad1a63f50741833c61939",
+      "status": "complete_edge_class_localization"
+    },
+    "class_allocation": {
+      "path": "outputs/neuron-level-bm-class-allocation-v1/analysis.json",
+      "sha256": "c3df39d4169f65ab4fd523313d037ec69008bc36987ec43bd0433dfcad078fd9",
+      "status": "complete_class_allocation"
+    }
+  }
+}

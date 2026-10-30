@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "title": "Connectome-derived finite-horizon sensory gain is dataset-specific after cross-connectome structural normalization",
+  "scope": "Reproducible manuscript evidence package; no new training, fitting or outcome analysis.",
+  "artifacts": [
+    {"id": "development_gate", "path": "outputs/neuron-level-matched-null-development-v1/analysis.json", "pointer": "/decision", "expected": "development_gate_failed_stop_without_confirmation", "claim_class": "negative"},
+    {"id": "frozen_mechanism", "path": "outputs/neuron-level-bm-mechanism-bundle-v1/summary.json", "pointer": "/status", "expected": "complete_frozen_mechanism_synthesis", "claim_class": "development_finding"},
+    {"id": "class_allocation", "path": "outputs/neuron-level-bm-class-allocation-v1/analysis.json", "pointer": "/decision", "expected": "allocation_dominant", "claim_class": "development_finding"},
+    {"id": "banc_exact_bridge", "path": "outputs/banc-one-to-one-homolog-bridge-v1/analysis.json", "pointer": "/decision", "expected": "exact_bridge_failed_no_valid_lovp108_homolog", "claim_class": "negative"},
+    {"id": "banc_local_assay", "path": "outputs/banc-bm-local-mechanism-v2/analysis.json", "pointer": "/decision", "expected": "local_signature_not_replicated", "claim_class": "negative"},
+    {"id": "harmonized_structure", "path": "outputs/bm-cross-dataset-structural-audit-v1/analysis.json", "pointer": "/decision", "expected": "male_structural_excess_persists_harmonized_thresholds", "claim_class": "descriptive_finding"},
+    {"id": "metadata_comparability", "path": "outputs/bm-official-metadata-availability-v1/analysis.json", "pointer": "/decision", "expected": "metadata_partially_recoverable_not_comparable", "claim_class": "negative"},
+    {"id": "side_count_sensitivity", "path": "outputs/bm-side-count-matched-sensitivity-v1/analysis.json", "pointer": "/decision", "expected": "side_count_insufficient_explanation", "claim_class": "sensitivity_finding"},
+    {"id": "within_dataset_enrichment", "path": "outputs/bm-within-dataset-sensory-enrichment-v1/analysis.json", "pointer": "/decision", "expected": "global_scale_or_inconclusive", "claim_class": "negative"},
+    {"id": "shared_family_residual", "path": "outputs/bm-shared-sensory-scale-residual-v1/analysis.json", "pointer": "/decision", "expected": "mixed_residual", "claim_class": "mixed_finding"}
+  ],
+  "required_claim_classes": ["negative", "development_finding", "descriptive_finding", "sensitivity_finding", "mixed_finding"],
+  "training_or_fitting": 0
+}

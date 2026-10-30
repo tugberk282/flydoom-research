@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="598.040547pt" height="241.704pt" viewBox="0 0 598.040547 241.704" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>FlyDoom manuscript figures V1</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 241.704 
+L 598.040547 241.704 
+L 598.040547 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 106.175473 81.23616 
+L 218.668273 81.23616 
+Q 221.882353 81.23616 221.882353 78.6384 
+L 221.882353 36.4248 
+Q 221.882353 33.82704 218.668273 33.82704 
+L 106.175473 33.82704 
+Q 102.961393 33.82704 102.961393 36.4248 
+L 102.961393 78.6384 
+Q 102.961393 81.23616 106.175473 81.23616 
+z
+" clip-path="url(#pa71e7fa58d)" style="fill: #dceef8; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 242.773873 81.23616 
+L 355.266673 81.23616 
+Q 358.480753 81.23616 358.480753 78.6384 
+L 358.480753 36.4248 
+Q 358.480753 33.82704 355.266673 33.82704 
+L 242.773873 33.82704 
+Q 239.559793 33.82704 239.559793 36.4248 
+L 239.559793 78.6384 
+Q 239.559793 81.23616 242.773873 81.23616 
+z
+" clip-path="url(#pa71e7fa58d)" style="fill: #eee5f6; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 379.372273 81.23616 
+L 491.865073 81.23616 
+Q 495.079153 81.23616 495.079153 78.6384 
+L 495.079153 36.4248 
+Q 495.079153 33.82704 491.865073 33.82704 
+L 379.372273 33.82704 
+Q 376.158193 33.82704 376.158193 36.4248 
+L 376.158193 78.6384 
+Q 376.158193 81.23616 379.372273 81.23616 
+z
+" clip-path="url(#pa71e7fa58d)" style="fill: #fce8d5; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 154.386673 191.64096 
+L 274.914673 191.64096 
+Q 278.128753 191.64096 278.128753 189.0432 
+L 278.128753 143.5824 
+Q 278.128753 140.98464 274.914673 140.98464 
+L 154.386673 140.98464 
+Q 151.172593 140.98464 151.172593 143.5824 
+L 151.172593 189.0432 
+Q 151.172593 191.64096 154.386673 191.64096 
+z
+" clip-path="url(#pa71e7fa58d)" style="fill: #e2f0e7; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 323.125873 191.64096 
+L 443.653873 191.64096 
+Q 446.867953 191.64096 446.867953 189.0432 
+L 446.867953 143.5824 
+Q 446.867953 140.98464 443.653873 140.98464 
+L 323.125873 140.98464 
+Q 319.911793 140.98464 319.911793 143.5824 
+L 319.911793 189.0432 
+Q 319.911793 191.64096 323.125873 191.64096 
+z
+" clip-path="url(#pa71e7fa58d)" style="fill: #f4dfdf; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 434.426929 80.243766 
+Q 411.512693 111.110912 389.398158 140.900803 
+" clip-path="url(#pa71e7fa58d)" style="fill: none; stroke: #444444; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 394.186307 138.477246 
+L 389.398158 140.900803 
+L 390.332201 135.61615 
+z
+" clip-path="url(#pa71e7fa58d)" style="fill: #444444; stroke: #444444; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 163.67627 80.198182 
+Q 188.536559 111.110755 212.556048 140.977834 
+" clip-path="url(#pa71e7fa58d)" style="fill: none; stroke: #444444; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 211.418149 135.733296 
+L 212.556048 140.977834 
+L 207.677678 138.741431 
+z
+" clip-path="url(#pa71e7fa58d)" style="fill: #444444; stroke: #444444; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="113.407153" y="53.004994" transform="rotate(-0 113.407153 53.004994)">Development finding</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans'" transform="translate(113.407153 65.310759)">MaleCNS BM has dense, reciprocal</text>
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans'" transform="translate(113.407153 75.320759)">partner topology</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="250.005553" y="53.004994" transform="rotate(-0 250.005553 53.004994)">Mechanistic model</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans'" transform="translate(250.005553 65.310759)">Partner topology → class allocation</text>
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans'" transform="translate(250.005553 75.320759)">→ dominant sensory-axis gain</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="386.603953" y="53.004994" transform="rotate(-0 386.603953 53.004994)">External tests</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans'" transform="translate(386.603953 66.056696)">FAFB controls + BANC local</text>
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans'" transform="translate(386.603953 76.066696)">mechanism audit</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="161.618353" y="160.162594" transform="rotate(-0 161.618353 160.162594)">Supported</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans'" transform="translate(161.618353 173.214296)">Structural excess survives</text>
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans'" transform="translate(161.618353 182.478359)">side/count matching</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="330.357553" y="160.162594" transform="rotate(-0 330.357553 160.162594)">Not established</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans'" transform="translate(330.357553 172.468359)">BM specificity and local mechanism</text>
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans'" transform="translate(330.357553 182.478359)">do not replicate decisively</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="299.020273" y="18.5652" transform="rotate(-0 299.020273 18.5652)">Evidence map: from development result to bounded conclusion</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="299.020273" y="219.8916" transform="rotate(-0 299.020273 219.8916)">Current conclusion: a reproducible structural contrast and a constrained mechanistic hypothesis—not a confirmed sex-specific discovery.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa71e7fa58d">
+   <rect x="98.140273" y="7.2" width="401.76" height="227.304"/>
+  </clipPath>
+ </defs>
+</svg>

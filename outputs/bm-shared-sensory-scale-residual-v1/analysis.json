@@ -1,0 +1,136 @@
+{
+  "status": "complete_shared_sensory_scale_residual_audit",
+  "decision": "mixed_residual",
+  "shared_control_families": 52,
+  "shared_controls": [
+    "JO-CM",
+    "JO-ED2_a",
+    "JO-ED2_b",
+    "JO-EV1",
+    "JO-EV2",
+    "JO-EV3",
+    "JO-EV5",
+    "JO-EV6",
+    "JO-FV",
+    "JO-unclear",
+    "LC10",
+    "LC10c-1",
+    "LC10c-2",
+    "LC10d",
+    "LC11",
+    "LC12",
+    "LC13",
+    "LC16",
+    "LC18",
+    "LC20b",
+    "LC21",
+    "LC22",
+    "LC24",
+    "LC29",
+    "LC31a",
+    "LC33",
+    "LC36",
+    "LC4",
+    "LC6",
+    "LC9",
+    "LCe04",
+    "LLPC1",
+    "LLPC2",
+    "LLPC3",
+    "LPC1",
+    "LPC2",
+    "LPLC1",
+    "LPLC2",
+    "LPLC4",
+    "LPT100",
+    "LPT111",
+    "LPT114",
+    "LT51",
+    "MC62",
+    "MC66",
+    "MTe01a",
+    "MTe50",
+    "MTe52",
+    "TPMN1",
+    "TmY14",
+    "aMe5",
+    "aPhM1"
+  ],
+  "summaries": {
+    "1": {
+      "density_log2_ratio": {
+        "bm_log2_ratio": 0.37872664616101587,
+        "control_median_log2_ratio": 0.8451340535562307,
+        "control_mad": 0.43432462233064484,
+        "robust_z": -0.724314188662363,
+        "bm_percentile_midrank": 0.20754716981132076,
+        "control_positive_fraction": 0.9423076923076923,
+        "control_min": -1.3037121252884563,
+        "control_max": 3.019086195722677
+      },
+      "reciprocity_log2_ratio": {
+        "bm_log2_ratio": 0.665004157996028,
+        "control_median_log2_ratio": 0.7960568918903863,
+        "control_mad": 0.32114080248870713,
+        "robust_z": -0.27524953955048503,
+        "bm_percentile_midrank": 0.41509433962264153,
+        "control_positive_fraction": 0.9230769230769231,
+        "control_min": -0.736965594166206,
+        "control_max": 4.7251958172266635
+      }
+    },
+    "3": {
+      "density_log2_ratio": {
+        "bm_log2_ratio": 2.065222898388387,
+        "control_median_log2_ratio": 2.121311818977854,
+        "control_mad": 1.1021036372790254,
+        "robust_z": -0.03432658904929638,
+        "bm_percentile_midrank": 0.5094339622641509,
+        "control_positive_fraction": 0.9615384615384616,
+        "control_min": -2.0330305631585524,
+        "control_max": 6.426532482170843
+      },
+      "reciprocity_log2_ratio": {
+        "bm_log2_ratio": 1.1649615192566816,
+        "control_median_log2_ratio": 1.22119883746152,
+        "control_mad": 0.7951658419476033,
+        "robust_z": -0.04770269227611998,
+        "bm_percentile_midrank": 0.5094339622641509,
+        "control_positive_fraction": 0.8461538461538461,
+        "control_min": -1.6476982560691187,
+        "control_max": 4.883205065356829
+      }
+    },
+    "5": {
+      "density_log2_ratio": {
+        "bm_log2_ratio": 3.999937672290444,
+        "control_median_log2_ratio": 3.0834861001004104,
+        "control_mad": 1.4233791689871937,
+        "robust_z": 0.434275090164353,
+        "bm_percentile_midrank": 0.7169811320754716,
+        "control_positive_fraction": 0.9038461538461539,
+        "control_min": -2.6967421924287613,
+        "control_max": 10.882191170492716
+      },
+      "reciprocity_log2_ratio": {
+        "bm_log2_ratio": 5.009252313238196,
+        "control_median_log2_ratio": 0.591651263747776,
+        "control_mad": 1.0580288765466221,
+        "robust_z": 2.8162096073037564,
+        "bm_percentile_midrank": 1.0,
+        "control_positive_fraction": 0.5769230769230769,
+        "control_min": -3.0,
+        "control_max": 4.139932475074065
+      }
+    }
+  },
+  "primary_cells_with_strong_positive_residual": 0,
+  "training_or_fitting": 0,
+  "interpretation_limit": "Paired family structural scaling across two specimens/datasets. Shared type families are not independent biological replicates and cannot isolate sex from reconstruction pipeline.",
+  "source_hashes": {
+    "configs\\bm_shared_sensory_scale_residual_v1.json": "eb7fbe9df4b9db2dbdb67c289e196bb5c670e13bcc222d21c7d0501b9a21ca36",
+    "outputs\\receptor-vs-neuron-interface-v1\\neurons.feather": "28e7b37acddcbe2dc1ac9f1af46dfdb6e55729de9e7b9d0f476d852643eb6ab8",
+    "outputs\\receptor-vs-neuron-interface-v1\\male-induced-edges.feather": "813a9c7f58455ee32321ad75eb13a228e3444c5705e3407e6f5d656e77f29001",
+    "outputs\\receptor-vs-neuron-interface-v1\\female-induced-edges.feather": "21651f7e4e5a894c002446a250545cef2550c15c0b9503a4be1b63840c1f6413"
+  }
+}
