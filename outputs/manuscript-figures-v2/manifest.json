@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "version": "manuscript-figures-v2",
+  "config": "configs/manuscript_figures_v2.json",
+  "config_sha256": "6e13362d63f4a4bd9ab0b70df23ce79643107af6fba00fa8d48d1723d641dae4",
+  "source_hashes": {
+    "outputs/bm-shared-sensory-scale-residual-v1/analysis.json": "5e6c3b786678bb58367328e6b7dd712681c0d7b9255f969061b60f3ba082b1c7",
+    "outputs/fafb-princeton-claim-impact-v1/analysis.json": "ee213d101d192af74d21202da746d94025e47785feeb043389f744f5d7817cc0",
+    "outputs/fafb-princeton-temporal-sensitivity-v1/analysis.json": "3018ef28500d36252cdda3c2e108b0d04e489994aeb93da0a9e81a17e2a58a8a",
+    "outputs/fafb-princeton-matched-null-development-v1/analysis.json": "36fb6cfa592827d206c78cbb3dd460c6b8d7d7bb7c9292a8f4caec914defcb76",
+    "outputs/neuron-level-matched-null-development-v1/analysis.json": "9ca95472b2125eae4eb2e49b00283290c2c4a42fa39c8dc7981da8fcd829b044"
+  },
+  "generated_files": [
+    "outputs/manuscript-figures-v2/figure-6-reconstruction-sensitive-residual.png",
+    "outputs/manuscript-figures-v2/figure-6-reconstruction-sensitive-residual.svg",
+    "outputs/manuscript-figures-v2/figure-6-reconstruction-sensitive-residual.pdf",
+    "outputs/manuscript-figures-v2/figure-7-reconstruction-matched-temporal-null.png",
+    "outputs/manuscript-figures-v2/figure-7-reconstruction-matched-temporal-null.svg",
+    "outputs/manuscript-figures-v2/figure-7-reconstruction-matched-temporal-null.pdf"
+  ],
+  "generated_hashes": {
+    "outputs/manuscript-figures-v2/figure-6-reconstruction-sensitive-residual.png": "0cdb7acb5dd295760b42466316798a4f221adbd6ac46ac097627fee48e2161fa",
+    "outputs/manuscript-figures-v2/figure-6-reconstruction-sensitive-residual.svg": "a45453d97fd3db3ffda95241e8c7ad71c76bdc08db62efe3d672732f880d9c6d",
+    "outputs/manuscript-figures-v2/figure-6-reconstruction-sensitive-residual.pdf": "36d25f9d8abb03ae70c57747f7cf3e3c0927b17533123eda90f4c23b80e15532",
+    "outputs/manuscript-figures-v2/figure-7-reconstruction-matched-temporal-null.png": "ba679a24ad962f7b12a2704f7c70f226d562e0c6bb7ddc780495df424cf97348",
+    "outputs/manuscript-figures-v2/figure-7-reconstruction-matched-temporal-null.svg": "7da3adab445789b2d428cd0a19cb85aaa6c7061e67cb4a43d6c88818063a56d2",
+    "outputs/manuscript-figures-v2/figure-7-reconstruction-matched-temporal-null.pdf": "474005e349823e2eab801100793b9d4388eb03f3b03884ce80817ded1e1d86ec"
+  },
+  "guardrails": [
+    "Buhmann and Princeton are same-specimen measurement products, not biological replicates.",
+    "Neither reconstruction is treated as ground truth.",
+    "The primary temporal control is the within-type-block directed degree-rewire family.",
+    "The diagnostic global-rewire family cannot replace the primary null decision.",
+    "A reconstruction-robust positive result required Real-minus-primary-null median >= 0.05 in both products."
+  ]
+}

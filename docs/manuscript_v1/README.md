@@ -1,5 +1,7 @@
 # Manuscript package V1
 
+> **4 November 2026 update:** V1 is preserved as the historical frozen package. Its FAFB-source-dependent interpretation is superseded by [ADDENDUM_2026-11-04.md](ADDENDUM_2026-11-04.md) and the versioned `outputs/manuscript-evidence-v2/` bundle. Do not use the V1 threshold-5 reciprocity candidate or Real-wiring wording without the addendum.
+
 Bu klasör, projenin mevcut BM mekanizma ve external-validation hattını yayıma hazırlanabilir fakat henüz gönderime hazır olmayan bir bilimsel metin paketinde toplar.
 
 ## Yetkili içerik
@@ -36,6 +38,8 @@ Makale sınıflandırması: **metodolojik/karma sonuç çalışması**. Mevcut k
 .venv\Scripts\python.exe scripts\build_manuscript_figures_v1.py
 .venv\Scripts\python.exe -m pytest tests\test_manuscript_figures_v1.py -q
 ```
+
+Gönderim öncesi editoryal ve teknik maddeler için [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md) dosyasını kullan.
 
 İki komut kanıt dosyalarını değiştirmez; karar pointer'larını ve SHA-256 manifestini yeniden doğrular.
 

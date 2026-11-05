@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "checks": {
+    "artifact_count_matches_config": true,
+    "all_files_exist_and_match": true,
+    "all_claim_classes_present": true,
+    "negative_results_present": true,
+    "reconstruction_sensitivity_present": true,
+    "supersession_rules_present": true,
+    "no_training_or_fitting": true
+  },
+  "manifest_sha256": "b927182c084d9d6b43c3f62d357fc9475516b5fea286119148168b1cd62f273c"
+}

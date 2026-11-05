@@ -1,0 +1,179 @@
+{
+  "status": "complete_frozen_real_reconstruction_temporal_sensitivity",
+  "decision": "open_separate_princeton_matched_null_extension",
+  "conditions": {
+    "buhmann_no_threshold": {
+      "nodes": 9345,
+      "edges": 318984,
+      "total_weight": 1021070,
+      "type_counts": {
+        "sensory": 306,
+        "internal": 125,
+        "descending": 6
+      },
+      "real_metrics": [
+        {
+          "delay": 0,
+          "paired_rms": 0.01183404595486767,
+          "relative_retention": 1.0,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        },
+        {
+          "delay": 4,
+          "paired_rms": 0.007548365110021028,
+          "relative_retention": 0.637851596893299,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        },
+        {
+          "delay": 8,
+          "paired_rms": 0.00514572472188641,
+          "relative_retention": 0.4348237907399566,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        }
+      ],
+      "type_aggregated_metrics": [
+        {
+          "delay": 0,
+          "paired_rms": 0.011827212321778842,
+          "relative_retention": 1.0,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        },
+        {
+          "delay": 4,
+          "paired_rms": 0.007393727991936202,
+          "relative_retention": 0.6251454519271001,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        },
+        {
+          "delay": 8,
+          "paired_rms": 0.005010881844235877,
+          "relative_retention": 0.4236739569652224,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        }
+      ],
+      "duplicate_cpu_exact": true,
+      "identifiability_passed": true
+    },
+    "princeton_no_threshold": {
+      "nodes": 9625,
+      "edges": 484957,
+      "total_weight": 1587584,
+      "type_counts": {
+        "sensory": 306,
+        "internal": 125,
+        "descending": 6
+      },
+      "real_metrics": [
+        {
+          "delay": 0,
+          "paired_rms": 0.011445745329864468,
+          "relative_retention": 1.0,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        },
+        {
+          "delay": 4,
+          "paired_rms": 0.008026407726417299,
+          "relative_retention": 0.7012568858643601,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        },
+        {
+          "delay": 8,
+          "paired_rms": 0.006172366959091956,
+          "relative_retention": 0.5392717364579913,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        }
+      ],
+      "type_aggregated_metrics": [
+        {
+          "delay": 0,
+          "paired_rms": 0.011057718191075285,
+          "relative_retention": 1.0,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        },
+        {
+          "delay": 4,
+          "paired_rms": 0.007761614705906126,
+          "relative_retention": 0.7019182956001309,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        },
+        {
+          "delay": 8,
+          "paired_rms": 0.006011735771267869,
+          "relative_retention": 0.5436687449785036,
+          "axis_auc": 1.0,
+          "axis_orientation": 1.0,
+          "reset_auc": 0.5,
+          "saturation_fraction": 0.0
+        }
+      ],
+      "duplicate_cpu_exact": true,
+      "identifiability_passed": true
+    }
+  },
+  "primary_contrasts": {
+    "princeton_minus_buhmann_delay8_relative_retention": 0.10444794571803473,
+    "princeton_minus_buhmann_delay8_paired_rms": 0.0010266422372055464,
+    "princeton_minus_buhmann_delay8_orientation": 0.0
+  },
+  "matched_null_extension_gate": {
+    "conditions": {
+      "absolute_delay8_retention_difference_at_least_0_05": true,
+      "identifiability_classification_changed": false,
+      "delay8_orientation_changed_sign_or_below_0_75": false
+    },
+    "open": true
+  },
+  "training_updates": 0,
+  "probe_or_classifier_fits": 0,
+  "interpretation_limits": [
+    "This is a same-specimen reconstruction sensitivity, not independent biological replication.",
+    "The original per-reconstruction induced-node policy can change neuron counts; that change is part of the data-product sensitivity and must be reported.",
+    "Princeton is not assumed to be ground truth or more accurate.",
+    "Existing frozen graphs and results must not be overwritten."
+  ],
+  "source_hashes": {
+    "configs\\fafb_princeton_temporal_sensitivity_v1.json": "c76687992a261cb3450c7a843d6dd977cf4b01a4036123cd66b9dc4ff64e25bc",
+    "docs\\FAFB_PRINCETON_TEMPORAL_SENSITIVITY_V1_DESIGN_2026-11-04.md": "0167badbba5e6b0b46c303376c8e16133bef7684f816fde7b131e439d281f3b9",
+    "outputs\\neuron-level-identifiability-preflight-v2\\manifest.json": "6b70e73a2fec8f13f7fa4a7036fa4e1c1bddee46b8c4165a8ca6852205a037f8",
+    "outputs\\receptor-vs-neuron-interface-v1\\neurons.feather": "28e7b37acddcbe2dc1ac9f1af46dfdb6e55729de9e7b9d0f476d852643eb6ab8",
+    "outputs\\receptor-vs-neuron-interface-v1\\female-induced-edges.feather": "21651f7e4e5a894c002446a250545cef2550c15c0b9503a4be1b63840c1f6413",
+    "data\\external\\codex-fafb-783-historical-v1\\connections_princeton_no_threshold.csv.gz": "62c2e562a7470bfd32cbb98e36af3daa607ba0822b37223b34f2aa45250a920e"
+  },
+  "artifact_hashes": {
+    "outputs\\fafb-princeton-temporal-sensitivity-v1\\princeton-female-induced-edges.feather": "a390400c29f884bf301afd0e1c99a18089ae7f7b05af7595847ff324aa8fa991",
+    "outputs\\fafb-princeton-temporal-sensitivity-v1\\princeton-female-induced-neurons.feather": "a7049525842e90b646c87ba2520f417ce7ca28c7def23b25a73846bc82bf5122"
+  }
+}

@@ -19,3 +19,11 @@ Robust z scores for the MaleCNS/FAFB BM log-ratio relative to 52 shared sensory-
 ## Figure 5 — Evidence map
 
 Separation of the development finding, proposed mechanistic chain, external tests and bounded conclusion. Side/count matching supports the structural contrast, whereas BM specificity and local-mechanism replication remain unestablished. The current result is a reproducible structural contrast plus a constrained hypothesis, not a confirmed sex-specific discovery.
+
+## Figure 6 — Reconstruction-sensitive shared-family residual (V2)
+
+Robust z scores for the MaleCNS/FAFB BM log-ratio relative to the same 52 shared sensory-family ratios after substituting either the historical Buhmann or Princeton FAFB connection product. Density (A) and reciprocity (B) use unchanged thresholds and normalization. The former threshold-5 reciprocity candidate changes from z=2.82 under Buhmann to z=-0.08 under Princeton. This is same-specimen measurement sensitivity; neither product is a biological replicate or ground truth.
+
+## Figure 7 — Reconstruction-matched temporal null comparison (V2)
+
+Delay-8 relative retention for each Real graph and its reconstruction-specific primary within-type-block directed degree-rewire median (A), with their paired contrasts against the prospectively frozen 0.05 effect floor (B). Absolute Princeton retention is higher, but the Real-minus-primary-null contrasts are approximately 0.0035 for Buhmann and 0.0298 for Princeton, both below the positive-result floor. Diagnostic global rewiring is not substituted for the primary null.

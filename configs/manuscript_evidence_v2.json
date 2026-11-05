@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "title": "FAFB reconstruction sensitivity limits structural residual and neuron-specific temporal superiority claims",
+  "scope": "Versioned manuscript evidence update; preserves V1 while adding frozen FAFB reconstruction and temporal sensitivity results.",
+  "artifacts": [
+    {"id":"development_gate","path":"outputs/neuron-level-matched-null-development-v1/analysis.json","pointer":"/decision","expected":"development_gate_failed_stop_without_confirmation","claim_class":"negative"},
+    {"id":"frozen_mechanism","path":"outputs/neuron-level-bm-mechanism-bundle-v1/summary.json","pointer":"/status","expected":"complete_frozen_mechanism_synthesis","claim_class":"development_finding"},
+    {"id":"class_allocation","path":"outputs/neuron-level-bm-class-allocation-v1/analysis.json","pointer":"/decision","expected":"allocation_dominant","claim_class":"development_finding"},
+    {"id":"banc_exact_bridge","path":"outputs/banc-one-to-one-homolog-bridge-v1/analysis.json","pointer":"/decision","expected":"exact_bridge_failed_no_valid_lovp108_homolog","claim_class":"negative"},
+    {"id":"banc_local_assay","path":"outputs/banc-bm-local-mechanism-v2/analysis.json","pointer":"/decision","expected":"local_signature_not_replicated","claim_class":"negative"},
+    {"id":"harmonized_structure_buhmann","path":"outputs/bm-cross-dataset-structural-audit-v1/analysis.json","pointer":"/decision","expected":"male_structural_excess_persists_harmonized_thresholds","claim_class":"descriptive_finding"},
+    {"id":"side_count_sensitivity","path":"outputs/bm-side-count-matched-sensitivity-v1/analysis.json","pointer":"/decision","expected":"side_count_insufficient_explanation","claim_class":"sensitivity_finding"},
+    {"id":"within_dataset_enrichment","path":"outputs/bm-within-dataset-sensory-enrichment-v1/analysis.json","pointer":"/decision","expected":"global_scale_or_inconclusive","claim_class":"negative"},
+    {"id":"shared_family_residual_buhmann","path":"outputs/bm-shared-sensory-scale-residual-v1/analysis.json","pointer":"/decision","expected":"mixed_residual","claim_class":"historical_source_conditional"},
+    {"id":"historical_factorial","path":"outputs/fafb-historical-factorial-v2/analysis.json","pointer":"/decision","expected":"reconstruction_difference_survives_threshold","claim_class":"reconstruction_sensitivity"},
+    {"id":"princeton_claim_impact","path":"outputs/fafb-princeton-claim-impact-v1/analysis.json","pointer":"/shared_sensory_residual/new_decision","expected":"global_scale_sufficient","claim_class":"negative"},
+    {"id":"temporal_source_provenance","path":"outputs/fafb-temporal-source-provenance-v1/analysis.json","pointer":"/identified_product","expected":"buhmann_no_threshold","claim_class":"provenance"},
+    {"id":"princeton_real_temporal","path":"outputs/fafb-princeton-temporal-sensitivity-v1/analysis.json","pointer":"/decision","expected":"open_separate_princeton_matched_null_extension","claim_class":"reconstruction_sensitivity"},
+    {"id":"princeton_matched_null","path":"outputs/fafb-princeton-matched-null-development-v1/analysis.json","pointer":"/decision","expected":"real_minus_primary_null_nonpositive_in_both_reconstructions","claim_class":"negative"}
+  ],
+  "required_claim_classes": ["negative","development_finding","descriptive_finding","sensitivity_finding","historical_source_conditional","reconstruction_sensitivity","provenance"],
+  "supersession_rules": [
+    "shared_family_residual_buhmann is historical source-conditional evidence and must not override princeton_claim_impact",
+    "princeton_real_temporal opens only the matched-null sensitivity stage and must be interpreted together with princeton_matched_null",
+    "diagnostic global-rewire effects cannot replace the primary within-type-block degree-rewire decision"
+  ],
+  "training_or_fitting": 0
+}

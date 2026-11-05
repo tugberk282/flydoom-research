@@ -1,0 +1,123 @@
+{
+  "status": "complete_princeton_claim_impact_sensitivity",
+  "structural": {
+    "old_decision": "male_structural_excess_persists_harmonized_thresholds",
+    "new_decision": "male_structural_excess_persists_harmonized_thresholds",
+    "decision_changed": false,
+    "primary_comparisons": [
+      {
+        "threshold": 3,
+        "male_density": 0.08482523444160273,
+        "princeton_fafb_density": 0.07654320987654321,
+        "banc_density": 0.002560163850486431,
+        "male_reciprocity": 0.6884422110552764,
+        "princeton_fafb_reciprocity": 0.5282258064516129,
+        "banc_reciprocity": 0.2,
+        "density_exceeds_both": true,
+        "reciprocity_exceeds_both": true
+      },
+      {
+        "threshold": 5,
+        "male_density": 0.05051150895140665,
+        "princeton_fafb_density": 0.03132716049382716,
+        "banc_density": 0.0005120327700972862,
+        "male_reciprocity": 0.7679324894514767,
+        "princeton_fafb_reciprocity": 0.5320197044334976,
+        "banc_reciprocity": 0.0,
+        "density_exceeds_both": true,
+        "reciprocity_exceeds_both": true
+      }
+    ]
+  },
+  "shared_sensory_residual": {
+    "old_decision": "mixed_residual",
+    "new_decision": "global_scale_sufficient",
+    "decision_changed": true,
+    "shared_control_families": 52,
+    "summaries": {
+      "1": {
+        "density_log2_ratio": {
+          "bm_log2_ratio": -0.49222112502060195,
+          "control_median_log2_ratio": 0.07035603582632605,
+          "control_mad": 0.24330044180995555,
+          "robust_z": -1.5596071000159786,
+          "bm_percentile_midrank": 0.18867924528301888,
+          "control_positive_fraction": 0.5576923076923077,
+          "control_min": -3.070505268577215,
+          "control_max": 0.8382981623937164
+        },
+        "reciprocity_log2_ratio": {
+          "bm_log2_ratio": 0.2338428055880642,
+          "control_median_log2_ratio": 0.1862343546743504,
+          "control_mad": 0.18726352545904132,
+          "robust_z": 0.17147738800484405,
+          "bm_percentile_midrank": 0.6037735849056604,
+          "control_positive_fraction": 0.75,
+          "control_min": -2.700439718141092,
+          "control_max": 1.0177589928549868
+        }
+      },
+      "3": {
+        "density_log2_ratio": {
+          "bm_log2_ratio": 0.1484919801523155,
+          "control_median_log2_ratio": 0.55276764564318,
+          "control_mad": 0.6174092409636374,
+          "robust_z": -0.44165228273753493,
+          "bm_percentile_midrank": 0.37735849056603776,
+          "control_positive_fraction": 0.7307692307692307,
+          "control_min": -3.255422984495,
+          "control_max": 2.298658315564515
+        },
+        "reciprocity_log2_ratio": {
+          "bm_log2_ratio": 0.38134583179165427,
+          "control_median_log2_ratio": 0.5895892215808407,
+          "control_mad": 0.43824877694626485,
+          "robust_z": -0.32049887991384185,
+          "bm_percentile_midrank": 0.37735849056603776,
+          "control_positive_fraction": 0.7884615384615384,
+          "control_min": -1.3219280948873622,
+          "control_max": 3.076815597050831
+        }
+      },
+      "5": {
+        "density_log2_ratio": {
+          "bm_log2_ratio": 0.6886046926422806,
+          "control_median_log2_ratio": 1.1109815329836952,
+          "control_mad": 0.9706468790554761,
+          "robust_z": -0.29350455039264883,
+          "bm_percentile_midrank": 0.41509433962264153,
+          "control_positive_fraction": 0.7884615384615384,
+          "control_min": -3.5447390989837113,
+          "control_max": 4.951614038524186
+        },
+        "reciprocity_log2_ratio": {
+          "bm_log2_ratio": 0.5278089999864526,
+          "control_median_log2_ratio": 0.596571013588016,
+          "control_mad": 0.596571013588016,
+          "robust_z": -0.07774320528634909,
+          "bm_percentile_midrank": 0.4716981132075472,
+          "control_positive_fraction": 0.7115384615384616,
+          "control_min": -3.3219280948873626,
+          "control_max": 4.849934710796442
+        }
+      }
+    },
+    "primary_cells_with_strong_positive_residual": 0
+  },
+  "claim_impact": "primary_decision_changed",
+  "training_or_fitting": 0,
+  "interpretation_limits": [
+    "Same-specimen measurement sensitivity, not confirmation.",
+    "No new family, threshold, or subset selection.",
+    "No training or fitting."
+  ],
+  "source_hashes": {
+    "configs\\fafb_princeton_claim_impact_v1.json": "737e529d0684a3329e5bbce487646b19081945eed4f1adca89b2fedc796ee7b5",
+    "data\\external\\codex-fafb-783-historical-v1\\connections_princeton_no_threshold.csv.gz": "62c2e562a7470bfd32cbb98e36af3daa607ba0822b37223b34f2aa45250a920e",
+    "outputs\\receptor-vs-neuron-interface-v1\\neurons.feather": "28e7b37acddcbe2dc1ac9f1af46dfdb6e55729de9e7b9d0f476d852643eb6ab8",
+    "outputs\\bm-cross-dataset-structural-audit-v1\\analysis.json": "62cd8133afb0a70996e5ca1f32fc0471cda344dfc6c8a695ab693bb2640da43e",
+    "configs\\bm_shared_sensory_scale_residual_v1.json": "eb7fbe9df4b9db2dbdb67c289e196bb5c670e13bcc222d21c7d0501b9a21ca36",
+    "outputs\\bm-shared-sensory-scale-residual-v1\\analysis.json": "5e6c3b786678bb58367328e6b7dd712681c0d7b9255f969061b60f3ba082b1c7",
+    "outputs\\bm-shared-sensory-scale-residual-v1\\paired-family-ratios.csv": "373376745a530595f79b8f27d441cd15e4ab82be4faa2f243859b8bd187e9c18"
+  }
+}

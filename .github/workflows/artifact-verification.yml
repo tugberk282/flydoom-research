@@ -21,4 +21,4 @@ jobs:
       - name: Install verification dependencies
         run: python -m pip install pytest pillow
       - name: Verify evidence, figures, and focused tests
-        run: python scripts/reproduce_publication_v1.py
+        run: python scripts/reproduce_publication_v2.py

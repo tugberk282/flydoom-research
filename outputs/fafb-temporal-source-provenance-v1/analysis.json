@@ -1,0 +1,83 @@
+{
+  "status": "complete_outcome_blind_temporal_source_provenance_audit",
+  "decision": "unique_exact_match",
+  "identified_product": "buhmann_no_threshold",
+  "mapped_female_nodes": 9638,
+  "target": {
+    "pair_count": 318984,
+    "total_weight": 1021070,
+    "induced_nodes": 9345
+  },
+  "candidate_comparisons": {
+    "buhmann_no_threshold": {
+      "candidate_pair_count": 318984,
+      "candidate_total_weight": 1021070,
+      "candidate_induced_nodes": 9345,
+      "shared_pairs": 318984,
+      "target_only_pairs": 0,
+      "candidate_only_pairs": 0,
+      "support_jaccard": 1.0,
+      "shared_weight_exact_fraction": 1.0,
+      "shared_weight_spearman": 1.0,
+      "exact_support_and_weights": true
+    },
+    "buhmann_filtered": {
+      "candidate_pair_count": 45042,
+      "candidate_total_weight": 597754,
+      "candidate_induced_nodes": 6602,
+      "shared_pairs": 45042,
+      "target_only_pairs": 273942,
+      "candidate_only_pairs": 0,
+      "support_jaccard": 0.14120457452411406,
+      "shared_weight_exact_fraction": 1.0,
+      "shared_weight_spearman": 0.9999999999999999,
+      "exact_support_and_weights": false
+    },
+    "princeton_no_threshold": {
+      "candidate_pair_count": 484957,
+      "candidate_total_weight": 1587584,
+      "candidate_induced_nodes": 9625,
+      "shared_pairs": 272051,
+      "target_only_pairs": 46933,
+      "candidate_only_pairs": 212906,
+      "support_jaccard": 0.5114798172554476,
+      "shared_weight_exact_fraction": 0.4368629411397128,
+      "shared_weight_spearman": 0.7704563837766333,
+      "exact_support_and_weights": false
+    },
+    "princeton_filtered": {
+      "candidate_pair_count": 68348,
+      "candidate_total_weight": 929055,
+      "candidate_induced_nodes": 7694,
+      "shared_pairs": 66450,
+      "target_only_pairs": 252534,
+      "candidate_only_pairs": 1898,
+      "support_jaccard": 0.2070854706714618,
+      "shared_weight_exact_fraction": 0.0871482317531979,
+      "shared_weight_spearman": 0.8055232818193987,
+      "exact_support_and_weights": false
+    }
+  },
+  "original_female_source": {
+    "path": "data/external/flywire-783/proofread_connections_783.feather",
+    "sha256": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf"
+  },
+  "temporal_outcomes_used": false,
+  "training_or_fitting": 0,
+  "interpretation_limits": [
+    "This audit identifies data-product provenance only; it does not rank reconstruction accuracy.",
+    "No temporal outcomes, training, fitting, or model selection may be used.",
+    "A later temporal sensitivity must use a new versioned graph and must not overwrite frozen historical artifacts."
+  ],
+  "source_hashes": {
+    "configs\\fafb_temporal_source_provenance_v1.json": "970dbd7e1d650743d3c17cce8496f03e13c372ce34b9d4e2b6e1598f93129274",
+    "docs\\FAFB_TEMPORAL_SOURCE_PROVENANCE_V1_DESIGN_2026-11-04.md": "c4088b7d668f4cc5f24e231d9c7a8f924c4b041386e03570d42b10166a089485",
+    "outputs\\receptor-vs-neuron-interface-v1\\manifest.json": "c5c4035cdd2a849ac00be85909eb72683dace73c9337d5e66e35ed28bd084b76",
+    "outputs\\receptor-vs-neuron-interface-v1\\neurons.feather": "28e7b37acddcbe2dc1ac9f1af46dfdb6e55729de9e7b9d0f476d852643eb6ab8",
+    "outputs\\receptor-vs-neuron-interface-v1\\female-induced-edges.feather": "21651f7e4e5a894c002446a250545cef2550c15c0b9503a4be1b63840c1f6413",
+    "data\\external\\codex-fafb-783-historical-v1\\connections_buhmann_no_threshold.csv.gz": "e40e028b47f9bfc9b6b5a8da534be307eaded1f716b9a39e2c4a586c9f7fc67e",
+    "data\\external\\codex-fafb-783-historical-v1\\connections_buhmann.csv.gz": "d49dd692e59e153aa3c83f5257bfc0eff51247b86d7bb183386c6d1622c70fc9",
+    "data\\external\\codex-fafb-783-historical-v1\\connections_princeton_no_threshold.csv.gz": "62c2e562a7470bfd32cbb98e36af3daa607ba0822b37223b34f2aa45250a920e",
+    "data\\external\\codex-fafb-783-historical-v1\\connections_princeton.csv.gz": "445f996bf6c4b1803b9ba186189138a3061ff8623aa94c0abcf38af30a5bd48b"
+  }
+}

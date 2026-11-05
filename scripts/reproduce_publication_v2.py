@@ -26,9 +26,8 @@ def verify_hash_map(mapping: dict[str, str]) -> list[str]:
     return errors
 
 
-def verify_evidence() -> list[str]:
-    manifest_path = ROOT / "outputs/manuscript-evidence-v1/manifest.json"
-    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+def verify_evidence() -> tuple[list[str], int]:
+    manifest = json.loads((ROOT / "outputs/manuscript-evidence-v2/manifest.json").read_text(encoding="utf-8"))
     errors = []
     for record in manifest["records"]:
         path = ROOT / record["path"]
@@ -38,14 +37,16 @@ def verify_evidence() -> list[str]:
             errors.append(f"evidence hash mismatch: {record['path']}")
         if not record["matched"]:
             errors.append(f"frozen decision mismatch: {record['id']}")
-    return errors
+    if not manifest["all_expected_decisions_match"]:
+        errors.append("V2 expected-decision verification failed")
+    return errors, len(manifest["records"])
 
 
-def verify_figures() -> list[str]:
-    manifest = json.loads((ROOT / "outputs/manuscript-figures-v1/manifest.json").read_text(encoding="utf-8"))
+def verify_figure_manifest(relative: str) -> tuple[list[str], int]:
+    manifest = json.loads((ROOT / relative).read_text(encoding="utf-8"))
     errors = verify_hash_map(manifest["source_hashes"])
     errors.extend(verify_hash_map(manifest["generated_hashes"]))
-    return errors
+    return errors, len(manifest["generated_files"]) // 3
 
 
 def run(command: list[str]) -> None:
@@ -53,31 +54,27 @@ def run(command: list[str]) -> None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Verify or rebuild the frozen manuscript V1 package.")
-    parser.add_argument("--rebuild", action="store_true", help="Rebuild evidence and figures before verification.")
-    parser.add_argument("--skip-tests", action="store_true", help="Skip focused pytest checks.")
+    parser = argparse.ArgumentParser(description="Verify or rebuild the versioned manuscript V2 package.")
+    parser.add_argument("--rebuild", action="store_true")
+    parser.add_argument("--skip-tests", action="store_true")
     args = parser.parse_args()
     if args.rebuild:
-        run([sys.executable, "scripts/build_manuscript_evidence_v1.py"])
+        run([sys.executable, "scripts/build_manuscript_evidence_v2.py"])
         run([sys.executable, "scripts/build_manuscript_figures_v1.py"])
-    errors = verify_evidence() + verify_figures()
+        run([sys.executable, "scripts/build_manuscript_figures_v2.py"])
+    errors, evidence_count = verify_evidence()
+    v1_errors, v1_figures = verify_figure_manifest("outputs/manuscript-figures-v1/manifest.json")
+    v2_errors, v2_figures = verify_figure_manifest("outputs/manuscript-figures-v2/manifest.json")
+    errors.extend(v1_errors + v2_errors)
     if not args.skip_tests:
-        run(
-            [
-                sys.executable,
-                "-m",
-                "pytest",
-                "tests/test_manuscript_evidence_v1.py",
-                "tests/test_manuscript_figures_v1.py",
-                "-q",
-            ]
-        )
+        run([sys.executable, "-m", "pytest", "tests/test_manuscript_evidence_v2.py", "tests/test_manuscript_figures_v1.py", "tests/test_manuscript_figures_v2.py", "-q"])
     result = {
         "status": "passed" if not errors else "failed",
-        "evidence_records": 10,
-        "figures": 5,
+        "evidence_records": evidence_count,
+        "historical_v1_figures": v1_figures,
+        "v2_extension_figures": v2_figures,
         "errors": errors,
-        "scope": "Artifact verification; raw third-party connectome reconstruction is not bundled.",
+        "scope": "Frozen artifact verification; raw third-party connectome reconstruction is not bundled.",
     }
     print(json.dumps(result, indent=2))
     return 0 if not errors else 1

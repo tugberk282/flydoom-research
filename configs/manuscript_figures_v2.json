@@ -1,0 +1,24 @@
+{
+  "version": "manuscript-figures-v2",
+  "output_dir": "outputs/manuscript-figures-v2",
+  "formats": ["png", "svg", "pdf"],
+  "dpi": 300,
+  "sources": {
+    "buhmann_residual": "outputs/bm-shared-sensory-scale-residual-v1/analysis.json",
+    "princeton_claim_impact": "outputs/fafb-princeton-claim-impact-v1/analysis.json",
+    "princeton_temporal": "outputs/fafb-princeton-temporal-sensitivity-v1/analysis.json",
+    "princeton_matched_null": "outputs/fafb-princeton-matched-null-development-v1/analysis.json",
+    "buhmann_matched_null": "outputs/neuron-level-matched-null-development-v1/analysis.json"
+  },
+  "figures": [
+    "figure-6-reconstruction-sensitive-residual",
+    "figure-7-reconstruction-matched-temporal-null"
+  ],
+  "interpretation_guardrails": [
+    "Buhmann and Princeton are same-specimen measurement products, not biological replicates.",
+    "Neither reconstruction is treated as ground truth.",
+    "The primary temporal control is the within-type-block directed degree-rewire family.",
+    "The diagnostic global-rewire family cannot replace the primary null decision.",
+    "A reconstruction-robust positive result required Real-minus-primary-null median >= 0.05 in both products."
+  ]
+}

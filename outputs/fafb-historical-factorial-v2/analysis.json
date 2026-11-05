@@ -1,0 +1,133 @@
+{
+  "status": "complete_exploratory_fafb_historical_factorial",
+  "decision": "reconstruction_difference_survives_threshold",
+  "node_count": 81,
+  "condition_metrics": {
+    "buhmann_no_threshold": {
+      "directed_pair_count": 1025,
+      "directed_density": 0.15817901234567902,
+      "total_weight": 1591,
+      "reciprocal_directed_fraction": 0.4429268292682927,
+      "zero_degree_nodes": 1
+    },
+    "buhmann_filtered": {
+      "directed_pair_count": 20,
+      "directed_density": 0.0030864197530864196,
+      "total_weight": 124,
+      "reciprocal_directed_fraction": 0.0,
+      "zero_degree_nodes": 51
+    },
+    "princeton_no_threshold": {
+      "directed_pair_count": 1875,
+      "directed_density": 0.28935185185185186,
+      "total_weight": 4157,
+      "reciprocal_directed_fraction": 0.5973333333333334,
+      "zero_degree_nodes": 0
+    },
+    "princeton_filtered": {
+      "directed_pair_count": 203,
+      "directed_density": 0.03132716049382716,
+      "total_weight": 1383,
+      "reciprocal_directed_fraction": 0.5320197044334976,
+      "zero_degree_nodes": 12
+    }
+  },
+  "filter_reproduction_controls": {
+    "buhmann": {
+      "shared_pairs": 20,
+      "union_pairs": 20,
+      "support_jaccard": 1.0,
+      "shared_pair_weight_exact_fraction": 1.0,
+      "shared_pair_weight_spearman": 1.0,
+      "a_only_pairs": 0,
+      "b_only_pairs": 0,
+      "union_weights_exact": true
+    },
+    "princeton": {
+      "shared_pairs": 203,
+      "union_pairs": 203,
+      "support_jaccard": 1.0,
+      "shared_pair_weight_exact_fraction": 1.0,
+      "shared_pair_weight_spearman": 1.0,
+      "a_only_pairs": 0,
+      "b_only_pairs": 0,
+      "union_weights_exact": true
+    }
+  },
+  "reconstruction_comparisons": {
+    "no_threshold": {
+      "shared_pairs": 884,
+      "union_pairs": 2016,
+      "support_jaccard": 0.4384920634920635,
+      "shared_pair_weight_exact_fraction": 0.38122171945701355,
+      "shared_pair_weight_spearman": 0.5335732820698363,
+      "a_only_pairs": 141,
+      "b_only_pairs": 991,
+      "union_weights_exact": false
+    },
+    "filtered": {
+      "shared_pairs": 18,
+      "union_pairs": 205,
+      "support_jaccard": 0.08780487804878048,
+      "shared_pair_weight_exact_fraction": 0.2777777777777778,
+      "shared_pair_weight_spearman": 0.6742625765184301,
+      "a_only_pairs": 2,
+      "b_only_pairs": 185,
+      "union_weights_exact": false
+    }
+  },
+  "threshold_effects": {
+    "buhmann": {
+      "directed_pair_count": -1005,
+      "directed_density": -0.15509259259259262,
+      "total_weight": -1467,
+      "reciprocal_directed_fraction": -0.4429268292682927
+    },
+    "princeton": {
+      "directed_pair_count": -1672,
+      "directed_density": -0.2580246913580247,
+      "total_weight": -2774,
+      "reciprocal_directed_fraction": -0.06531362889983583
+    }
+  },
+  "threshold_by_reconstruction_interaction": {
+    "directed_pair_count": -667,
+    "directed_density": -0.10293209876543208,
+    "total_weight": -1307,
+    "reciprocal_directed_fraction": 0.37761320036845686
+  },
+  "functional_sensitivity_gate": {
+    "conditions": {
+      "filtered_support_jaccard_below_0.95": true,
+      "filtered_shared_pair_weight_exact_fraction_below_0.95": true,
+      "filtered_reciprocal_fraction_absolute_difference_at_least_0.05": true
+    },
+    "open": true,
+    "effect": "Permit a separately frozen exploratory retention/gain sensitivity; not confirmation or biological replication."
+  },
+  "training_or_fitting": 0,
+  "interpretation_limits": [
+    "V1 exact-coverage failure remains negative.",
+    "This V2 is posthoc-motivated exploratory measurement sensitivity.",
+    "Product labels do not prove independent reconstruction provenance.",
+    "No training or fitting in this structural measurement."
+  ],
+  "source_hashes": {
+    "configs\\fafb_historical_factorial_v2.json": "93857318d26f487a97c3ca47ba538b82996c3b6d424f076e3c9e6faa69e40b15",
+    "docs\\FAFB_HISTORICAL_FACTORIAL_V2_DESIGN_2026-11-04.md": "9ef5140b9e7672b6f6380d0d55bbc62044f05dae72e889eb8b1e10d927665e81",
+    "outputs\\codex-fafb-historical-acquisition-v1\\manifest.json": "f39998a7e8274d3a6dedd3db1cb028b68f192594953fc51a96a4836954437818"
+  },
+  "acquisition_file_hashes": {
+    "connections_buhmann.csv.gz": "d49dd692e59e153aa3c83f5257bfc0eff51247b86d7bb183386c6d1622c70fc9",
+    "connections_buhmann_no_threshold.csv.gz": "e40e028b47f9bfc9b6b5a8da534be307eaded1f716b9a39e2c4a586c9f7fc67e",
+    "connections_princeton.csv.gz": "445f996bf6c4b1803b9ba186189138a3061ff8623aa94c0abcf38af30a5bd48b",
+    "connections_princeton_no_threshold.csv.gz": "62c2e562a7470bfd32cbb98e36af3daa607ba0822b37223b34f2aa45250a920e",
+    "classification_with_fw_and_hemibrain_types.csv.gz": "e2e8e892ca4b8498e25e22c7625f3e8486751a530d0cbdd34203df2f8cbb00ff",
+    "consolidated_cell_types.csv.gz": "8aba246d71dc40361677493629972ce3883048c3d02010adc42bda22962a1a2d",
+    "neurons.csv.gz": "6a6b3759e635f0f35a677d169052362131ec61d95f55919298b55c43fce4e719",
+    "synapse_attachment_rates.csv.gz": "2e412c5714c21aa4f6ebff74801f620d161594740aaee25c73f5bc18b0110447"
+  },
+  "artifact_hashes": {
+    "outputs\\fafb-historical-factorial-v2\\pair-table.feather": "36f76572e5262ce9332325efe331ad6ebb18609d5dca11af2ff605027f9a6367"
+  }
+}
